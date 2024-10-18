@@ -1,0 +1,179 @@
+.login-container {
+  width: 400px;
+  margin: 100px auto;
+  padding: 40px 20px 20px;
+  background-color: #222; /* Dark background */
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  position: relative;
+}
+
+/* Avatar */
+.avatar-container {
+  position: absolute;
+  top: -40px; 
+  left: 50%;
+  transform: translateX(-50%); 
+  background-color: #333;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #555; 
+  margin :90 auto;
+
+}
+
+/
+.login-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  background-color: #333;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.input-group input {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 16px;
+  padding-left: 10px;
+  flex: 1;
+}
+
+.input-group input:focus {
+  outline: none;
+}
+
+.input-icon {
+  color: white;
+}
+
+
+.login-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #fff;
+  color: #000;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-btn:hover {
+  background-color: #ccc;
+}
+
+
+.login-options {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+  font-size: 14px;
+}
+
+.forgot-password {
+  color: white;
+  text-decoration: none;
+}
+
+.forgot-password:hover {
+  text-decoration: underline;
+}
+
+
+.register-option {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.register-option a {
+  color: white;
+  text-decoration: none;
+}
+
+.register-option a:hover {
+  text-decoration: underline;
+}
+
+/* Container for the entire register page */
+.register-container {
+  width: 400px;
+  margin: 100px auto;
+  padding: 40px 20px;
+  background-color: #222; /* Dark background */
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Title */
+.register-title {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+/* Input group for each input field */
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  background-color: #333; /* Dark input field background */
+  border: none;
+  border-radius: 5px;
+  color: white; /* White text */
+  font-size: 16px;
+}
+
+.input-group input:focus {
+  outline: none;
+  border: 2px solid #555; /* Focus effect */
+}
+
+/* Button styling */
+.register-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #fff;
+  color: #000;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.register-btn:hover {
+  background-color: #ccc; /* Button hover effect */
+}
+
+/* Options below the form */
+.register-options {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.register-options a {
+  color: white;
+  text-decoration: none;
+}
+
+.register-options a:hover {
+  text-decoration: underline;
+}
+
